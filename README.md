@@ -26,6 +26,7 @@ This will add one motivational quote by default.
     2. **db.motivations.find().pretty()**
        
 4. **Add a new quote manually**: You can insert a new quote into the motivations collection using the following command
+
    
    **db.motivations.insertOne({
       "message": "Stay positive!",
@@ -35,4 +36,12 @@ This will add one motivational quote by default.
 6. **Verify the new quote**: After adding the quote, you can verify it by accessing the application at: <http://localhost:8080/motivations>
    
 
-**Note**: Ideally, the quote should be added by the frontend application <http://localhost:3000/>. Once the backend application is up and running, proceed to execute the frontend application and enter the quote directly through the user interface.
+**Note**: Ideally, the quote should be added by the frontend application <http://localhost:3000/>. Once the backend application is up and running, proceed to execute the frontend application and enter the quote directly through the user interface.  
+
+![image](https://github.com/user-attachments/assets/5ff2d902-e3f4-4a81-85e2-111b4cb4ce92)  
+
+![image](https://github.com/user-attachments/assets/e0600894-3823-43c3-85c8-1eec2819f966)  
+
+
+
+
