@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the Maven build file
-COPY target/app-0.0.1-SNAPSHOT.jar motivator_backend_app.jar
+COPY target/motivator-backend-0.0.1-SNAPSHOT.jar motivator_backend_app.jar
 
 # Expose the application's port
 EXPOSE 8080
