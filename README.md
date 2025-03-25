@@ -7,7 +7,7 @@ This is a Java Spring Boot backend application, with MongoDB as the database.
 
  **docker run -d --name mongo-db -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin mongo**  
  
- 2. **Clone the repository and start the Spring Boot application**: After cloning the repository, navigate to the project directory and run the application using Maven:**mvn spring-boot:run**  
+ 2. **Clone the repository and start the Spring Boot application**: After cloning the repository, navigate to the project directory and run the application using Maven:  **mvn spring-boot:run**  
  
    
  3.**Access the application**: The application will be running locally on port 8080. You can access it at: **<http://localhost:8080/motivations>**  
@@ -18,9 +18,9 @@ This will add one motivational quote by default.
 
 ## Steps to add quotes from the MongoDB database manually
   
-1. **Access the MongoDB shell**: To interact with MongoDB, enter the MongoDB shell by running the following command: :** docker exec -it mongo-db mongosh -u admin -p admin --authenticationDatabase admin **  
+1. **Access the MongoDB shell**: To interact with MongoDB, enter the MongoDB shell by running the following command: : **docker exec -it mongo-db mongosh -u admin -p admin --authenticationDatabase admin**   
 
-2. Verify that motivatorDB is added and contains a single quote:
+2. Verify that motivatorDB database is added and it contains a single quote:
    
     1. **show dbs**
     2. **db.motivations.find().pretty()**
